@@ -28,7 +28,5 @@ jobs:
         uses: codecov/codecov-action@v4
         env:
           CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
-      - name: Poetry shell
-        run: poetry shell
       - name: Pylint check
-        run: pylint src
+        run: poetry run pylint src
