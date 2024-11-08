@@ -20,7 +20,7 @@ def part1(mehua, olutta):
 
     print("Virhetilanteita:")
     print(f"Varasto(-100.0):\n{Varasto(-100.0)}")
-    print(f"Varasto(100.0, -50.7):\n{Varastoaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa(100.0, -50.7)}\n")
+    print(f"Varasto(100.0, -50.7):\n{Varasto(100.0, -50.7)}\n")
     tupl = (mehua, olutta)
     return tupl
 
